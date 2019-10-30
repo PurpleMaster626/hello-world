@@ -1,0 +1,13 @@
+letters = ["a", "b", "c", "d"]
+print(letters[0])
+
+#now when we run this program,its output will be 'a'
+#this happens because we set the value to zero
+
+letters = ["a", "b", "c", "d"]
+print(letters[-1])
+
+#now if we try this program,its output will be 'd'
+#since we set the value to negitive one,it goes to the last letter in our list
+
+
