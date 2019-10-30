@@ -1,0 +1,53 @@
+letters = ["a", "b", "c"]
+matrix = [[0,1], [2,3]]
+zeros = [0] * 100
+print(zeros)
+
+#this code finds 100 zeros by using *
+#this symbol means repeat.
+#now you can also use a plus sign to make this program work
+#let me show you
+
+letters = ["a", "b", "c"]
+matrix = [[0,1], [2,3]]
+zeros = [0] * 5
+combined = zeros + letters
+print(combined)
+
+#now that we swapped the 100 for a 5, and combined 0's and letters, 
+#our outcome is five zeros and a, b, c
+#this is our output: [0, 0, 0, 0, 0, 'a', 'b', 'c']
+
+letters = ["a", "b", "c"]
+matrix = [[0,1], [2,3]]
+zeros = [0] * 5
+combined = zeros + letters
+numbers = list(range(20))
+print(numbers)
+
+#this code is like the one in List3
+#we find the numbers between one and twenty
+
+letters = ["a", "b", "c",]
+matrix = [[0,1], [2,3]]
+zeros = [0] * 5
+combined = zeros + letters
+numbers = list(range(20))
+chars = list("Hello World")
+print(chars)
+
+#this code simply finds the statement:"Hello World" using the key word:"chars".
+#if you wanted to you could change the statement to any two word statement.
+
+letters = ["a", "b", "c",]
+matrix = [[0,1], [2,3]]
+zeros = [0] * 5
+combined = zeros + letters
+numbers = list(range(20))
+chars = list("Hello Worid")
+print(len(chars)
+
+#this funtion tells us the length of our list.
+
+
+
