@@ -1,0 +1,60 @@
+letters = ["a", "b", "c"]
+for letter in enumerate(letters):
+    print(letter)
+    
+#our output:
+(0, 'a')
+(1, 'b')
+(2, 'c')
+
+letters = ["a", "b", "c"]
+for letter in enumerate(letters):
+    print(letter[0])
+    
+#our output:
+0
+1
+2 #this happens because we set the value to zero
+
+letters = ["a", "b", "c"]
+for letter in enumerate(letters):
+    print(letter[0], letter[1])
+
+#our output:
+0 a
+1 b
+2 c
+
+letters = ["a", "b", "c"]
+items = [0, "a"]
+index, letter = items
+for letter in enumerate(letters):
+    print(letter[0], letter[1])
+
+#this is an example of unpacking the list
+#if we change the [0, "a"] to (0, "a"),it would still be the same
+
+letters = ["a", "b", "c"]
+items = [0, "a"]
+index, letter = items
+for index, letter in enumerate(letters):
+    print(index, letter) 
+
+#our output:
+0 a
+1 b
+2 c
+#we can see that altering the program slightly means the same thing.
+#we don't need the 2nd and 3rd lines,so we can delete them.
+
+####RECAP:
+we can use for loops to find the combination that you need.
+
+thanks for reading!!!
+
+
+
+
+
+
+
