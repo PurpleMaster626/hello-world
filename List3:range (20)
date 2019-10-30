@@ -1,0 +1,18 @@
+numbers = list(range(20))
+print(numbers)
+
+#this code finds numbers 1-19
+
+numbers = list(range(20))
+print(numbers[::2])
+
+#now,you probably noticed how similar these two programs are.
+#am I right?
+#while the first code finds all the numbers,the second one only finds even numbers.
+
+numbers = list(range(20))
+print(numbers[::-1])
+
+#again we see a similar codethat uses the number 20.
+#this program finds every number in the oposite order. Example: (19-1).
+
