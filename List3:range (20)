@@ -13,6 +13,6 @@ print(numbers[::2])
 numbers = list(range(20))
 print(numbers[::-1])
 
-#again we see a similar codethat uses the number 20.
+#again we see a similar code that uses the number 20.
 #this program finds every number in the oposite order. Example: (19-1).
 
