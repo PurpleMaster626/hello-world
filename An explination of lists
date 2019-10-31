@@ -1,0 +1,15 @@
+#This weeks video was about using python to make a list of numbers,letters,or both
+#What I tried to do was make a bunch of codes that shoowed everything that I learned
+#I hope that you liked these codes,and I will be coding again next week!!!
+
+
+#Heres a code to copy and figure out:
+
+letters = ["a", "b", "c", "d"]
+letters[0] = "A"
+print(letters)
+
+
+
+#Solution:
+["A", "b", "c", "d"]
